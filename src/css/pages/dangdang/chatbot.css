@@ -1,0 +1,5 @@
+.bpWebchat {
+  width: 800px !important;
+  height: calc(100vh - 9rem) !important;
+  max-height: calc(100vh - 6rem) !important;
+}

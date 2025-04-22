@@ -1,0 +1,64 @@
+.pageSeven {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  .pageSevenImgWrap {
+    img {
+      box-shadow: rgba(0, 0, 0, 0.35) 17px 17px 17px;
+
+      &:nth-child(1) {
+        width: 400px;
+      }
+      &:nth-child(2) {
+        width: 375px;
+      }
+    }
+  }
+  .pageSevenTitleWrap {
+    div {
+      font-size: 150px;
+      color: var(--font-color);
+      opacity: 0;
+      transform: translateX(0);
+      &:nth-child(1) {
+        transform: translateX(-120px);
+        opacity: 0;
+      }
+      &:nth-child(2) {
+        transform: translateX(120px);
+        opacity: 0;
+      }
+    }
+  }
+}
+.animate-title0 {
+  animation: slideInFromLeft 0.2s ease-in-out 0.5s forwards;
+}
+.animate-title1 {
+  animation: slideInFromRight 0.2s ease-in-out 0.8s forwards;
+}
+
+/* 오른쪽 → 왼쪽 */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* 왼쪽 → 오른쪽 */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

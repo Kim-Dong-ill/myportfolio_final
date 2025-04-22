@@ -1,0 +1,22 @@
+.myselfIntro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.myselfIntro .myselfIntroTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 600px;
+  gap: 20px;
+  font-size: 60px;
+  color: #d1cece;
+}
+.myselfIntro .myselfIntroTitle span {
+  font-weight: bold;
+  color: #ffffff;
+}
+.myselfIntro .myselfIntroImg img {
+  width: 350px;
+}/*# sourceMappingURL=myselfintro.css.map */

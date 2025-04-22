@@ -1,0 +1,81 @@
+.pageSix {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .pageSixImgWrap {
+    .pageSixImg {
+      height: 800px;
+      border-radius: 7px;
+      box-shadow: rgba(0, 0, 0, 0.35) 17px 17px 17px;
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+  }
+  .pageSixContents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    .pageSixTitle {
+      font-size: 150px;
+      color: var(--font-color);
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    .pageSixTextWrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      font-size: 50px;
+      color: var(--font-color);
+      .pageSixText {
+        transform: translateX(100px);
+        opacity: 0;
+      }
+    }
+  }
+}
+/* 애니메이션 클래스 - 나타날 때 부드럽게 전환 */
+.animate-title {
+  animation: slideInFromRight 0.6s ease-in-out 0.7s forwards;
+}
+
+.animate-img {
+  animation: slideInFromLeft 0.6s ease-in-out 0.3s forwards;
+}
+.animate-text0 {
+  animation: slideInFromRight 0.4s ease-in-out 0.8s forwards;
+}
+.animate-text1 {
+  animation: slideInFromRight 0.4s ease-in-out 0.9s forwards;
+}
+.animate-text2 {
+  animation: slideInFromRight 0.4s ease-in-out 1s forwards;
+}
+/* 오른쪽 → 왼쪽 */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* 왼쪽 → 오른쪽 */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

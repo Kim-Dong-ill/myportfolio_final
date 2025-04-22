@@ -1,0 +1,37 @@
+.secPortfolio {
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+.secPortfolio .secPortfolioTitle {
+  font-size: 70px;
+}
+.secPortfolio .secPortfolioCardWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.secPortfolio .secPortfolioCardWrap .secPortfolioCard {
+  transition: 0.2s;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.2) 12px 12px 12px 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.secPortfolio .secPortfolioCardWrap .secPortfolioCard:hover {
+  scale: 1.05;
+}
+.secPortfolio .secPortfolioCardWrap .secPortfolioCard .secPortfolioImg img {
+  width: 300px;
+  height: 300px;
+}
+.secPortfolio .secPortfolioCardWrap .secPortfolioCard .secPortfolioName {
+  font-size: 20px;
+  padding: 10px;
+}/*# sourceMappingURL=myselfPortfoloi.css.map */

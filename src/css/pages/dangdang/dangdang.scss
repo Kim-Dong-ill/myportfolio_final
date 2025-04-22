@@ -1,0 +1,50 @@
+.dangdang-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.page-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.page-content {
+  font-size: 2rem;
+  padding: 2rem;
+}
+.dangdang-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox에서 스크롤바 숨기기 */
+  -ms-overflow-style: none; /* IE와 Edge에서 스크롤바 숨기기 */
+}
+
+.content-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome, Safari에서 스크롤바 숨기기 */
+}
+
+.page-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

@@ -1,0 +1,25 @@
+.myselfIntro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .myselfIntroTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 600px;
+    gap: 20px;
+    font-size: 60px;
+    color: #d1cece;
+    span {
+      font-weight: bold;
+      color: #ffffff;
+    }
+  }
+
+  .myselfIntroImg {
+    img {
+      width: 350px;
+    }
+  }
+}

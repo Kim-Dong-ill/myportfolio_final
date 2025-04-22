@@ -1,0 +1,50 @@
+.body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 240px;
+}
+.body .body_container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.body .body_container .body_inner {
+  display: flex;
+  gap: 80px;
+}
+.body .body_container .body_inner .body_box {
+  width: 250px;
+  height: 150px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-size: 28px;
+  color: wheat;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body .body_container .body_inner .starforest {
+  background: #0dbedf;
+  background: linear-gradient(45deg, #0dbedf, #010eff);
+}
+.body .body_container .body_inner .dangdang {
+  background: #d94e12;
+  background: linear-gradient(45deg, #d94e12, #ffaf01);
+}
+.body .body_container .body_inner .lib {
+  background: #2601f7;
+  background: linear-gradient(45deg, #2601f7, #e201ad);
+}
+.body .body_container .body_inner .shop {
+  background: #078001;
+  background: linear-gradient(45deg, #078001, #95c0ba);
+}
+.body .body_container .body_inner .chatbot {
+  background: #4e8ccf;
+  background: linear-gradient(45deg, #2e93ff, #928c11);
+}/*# sourceMappingURL=body.css.map */

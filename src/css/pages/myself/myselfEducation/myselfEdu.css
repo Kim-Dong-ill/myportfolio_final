@@ -1,0 +1,74 @@
+.sectionEduMainTitle {
+  color: #d1cece;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  font-size: 70px;
+}
+
+.sectionEdu {
+  padding: 70px 20px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+  color: #d1cece;
+}
+.sectionEdu .sectionEduOne {
+  width: 33%;
+  box-shadow: rgba(0, 0, 0, 0.2) 12px 12px 12px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.sectionEdu .sectionEduOne .sectionEduTitleWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sectionEdu .sectionEduOne .sectionEduTitleWrap div:nth-child(1) {
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.sectionEdu .sectionEduOne .sectionEduTitleWrap div:nth-child(2) {
+  font-size: 14px;
+  color: #8b8b8b;
+}
+.sectionEdu .sectionEduOne .sectionEduTitleWrap div:nth-child(3) {
+  font-size: 14px;
+  color: #8b8b8b;
+}
+.sectionEdu .sectionEduOne .sectionEduTextWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 50px;
+}
+.sectionEdu .sectionEduOne .sectionEduTextWrap .sectionEduTextTitleWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+.sectionEdu .sectionEduOne .sectionEduTextWrap .sectionEduTextTitleWrap .WrapTitle {
+  display: flex;
+  gap: 5px;
+}
+.sectionEdu .sectionEduOne .sectionEduTextWrap .sectionEduTextTitleWrap .WrapTitle div:nth-child(2) {
+  width: 270px;
+}
+.sectionEdu .sectionEduOne .sectionEduTextWrap .sectionEduText {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 5px;
+}/*# sourceMappingURL=myselfEdu.css.map */

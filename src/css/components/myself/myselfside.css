@@ -1,0 +1,164 @@
+.section {
+  width: 100%;
+  height: 100%;
+  padding: 18px 0;
+  border-bottom: 1px solid #6e6e6e;
+}
+
+.myselfpage {
+  width: 300px;
+  min-height: 100vh;
+  height: 100%;
+  padding: 20px;
+  background-color: var(--background-color);
+  box-shadow: rgba(0, 0, 0, 0.35) 12px 0px 25px;
+}
+.myselfpage .myselfpageWrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.myselfpage .myselfpageWrap .myselfpageSec1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 9px;
+}
+.myselfpage .myselfpageWrap .myselfpageSec1 .sec1ImgBox {
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 1000px;
+  overflow: hidden;
+}
+.myselfpage .myselfpageWrap .myselfpageSec1 .sec1ImgBox .sec1Img {
+  width: 100%;
+}
+.myselfpage .myselfpageWrap .myselfpageSec1 .sec1ExWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.myselfpage .myselfpageWrap .myselfpageSec1 .sec1ExWrap .sec1Title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.myselfpage .myselfpageWrap .myselfpageSec1 .sec1ExWrap .sec1Text {
+  font-size: 14px;
+}
+.myselfpage .myselfpageWrap .myselfpageSec1 .sec1LinkWrap {
+  display: flex;
+  gap: 20px;
+}
+
+.myselfpageSec2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 9px;
+}
+.myselfpageSec2 .sec2Box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.myselfpageSec2 .sec2Box .sec2Title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.myselfpageSec2 .sec2Box .sec2Text {
+  font-size: 14px;
+}
+
+.myselfpageSec3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9px;
+}
+.myselfpageSec3 .sec3Title {
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.myselfpageSec3 .sec2TextWrap {
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.myselfpageSec4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9px;
+}
+.myselfpageSec4 .sec4Title {
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.myselfpageSec4 .sec4TextWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  gap: 5px;
+}
+.myselfpageSec4 .sec4TextWrap .sec4SkillWrap {
+  display: flex;
+  flex-direction: column;
+}
+.myselfpageSec4 .sec4TextWrap .sec4SkillWrap .sec4Text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.myselfpageSec4 .sec4TextWrap .sec4SkillWrap .sec4Percent {
+  border: 1px solid #d1cece;
+  width: 100%;
+  height: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 1px;
+}
+.myselfpageSec4 .sec4TextWrap .sec4SkillWrap .sec4Percent .se4PercentHtml {
+  width: 99%;
+  height: 100%;
+  background-color: #d1cece;
+}
+.myselfpageSec4 .sec4TextWrap .sec4SkillWrap .sec4Percent .se4PercentCss {
+  width: 99%;
+  height: 100%;
+  background-color: #d1cece;
+}
+.myselfpageSec4 .sec4TextWrap .sec4SkillWrap .sec4Percent .se4PercentReact {
+  width: 99%;
+  height: 100%;
+  background-color: #d1cece;
+}
+.myselfpageSec4 .sec4TextWrap .sec4SkillWrap .sec4Percent .se4PercentJavaScript {
+  width: 85%;
+  height: 100%;
+  background-color: #d1cece;
+}
+.myselfpageSec4 .sec4TextWrap .sec4SkillWrap .sec4Percent .se4PercentJava {
+  width: 80%;
+  height: 100%;
+  background-color: #d1cece;
+}
+.myselfpageSec4 .sec4TextWrap .sec4SkillWrap .sec4Percent .se4PercentNode {
+  width: 80%;
+  height: 100%;
+  background-color: #d1cece;
+}
+.myselfpageSec4 .sec4TextWrap .sec4SkillWrap .sec4Percent .se4PercentFigma {
+  width: 99%;
+  height: 100%;
+  background-color: #d1cece;
+}/*# sourceMappingURL=myselfside.css.map */
