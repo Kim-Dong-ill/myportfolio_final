@@ -37,12 +37,11 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Layout />}></Route>
+        <Route path="/" element={<Myself />}></Route>
         <Route path="/starforest" element={<Starforest />}></Route>
         <Route path="/dangdang" element={<Dangdang />}></Route>
         <Route path="/lib" element={<Lib />}></Route>
         <Route path="/shop" element={<Shop />}></Route>
-        <Route path="/myself" element={<Myself />}></Route>
         <Route path="/chatbot" element={<Chatbot />}></Route>
         <Route path="/chatbotex" element={<ChatBotEx />}></Route>
         <Route path="/eyemtaxi" element={<EyemTaxi />}></Route>
