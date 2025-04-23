@@ -12,6 +12,7 @@ import sacle from "../images/eyemtaxiscale.svg";
 import back from "../images/eyemtaxiback.svg";
 import gis from "../images/eyemtaxigis.svg";
 import myVideo from "../videos/eyemtaxi.mp4";
+import PageYoutube from "../components/PageYoutube";
 
 function EyemTaxi() {
   const [videoLoaded, setVideoLoaded] = useState(false);
@@ -19,7 +20,7 @@ function EyemTaxi() {
   const [page, setPage] = useState(1);
   const [isAnimating, setIsAnimating] = useState(false);
   const contentRef = useRef(null);
-  const totalVerticalPages = 6;
+  const totalVerticalPages = 7;
 
   //page1
   const projectName = "아임택시";
@@ -61,6 +62,9 @@ function EyemTaxi() {
     text: ["GeoJson", "MapBox", "QGIS"],
     img: gis,
   };
+
+  //youtudePage
+  const youtubeId = { id: "0MDEpTd_204", mute: "0" };
 
   // 세로 스크롤 제어
   useEffect(() => {
@@ -152,6 +156,9 @@ function EyemTaxi() {
         </section>
         <section className="page-section">
           <PageSix PageSixContents={PageSixContents} />
+        </section>
+        <section className="page-section">
+          <PageYoutube youtubeId={youtubeId} />
         </section>
       </div>
     </div>

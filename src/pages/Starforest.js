@@ -15,6 +15,7 @@ import PageSeven from "../components/PageSeven";
 import starforestPay from "../images/starforestPay.svg";
 import starforestReservation from "../images/starforestReservation.svg";
 import Loading from "../components/Loading";
+import PageYoutube from "../components/PageYoutube";
 
 function Starforest() {
   const [videoLoaded, setVideoLoaded] = useState(false);
@@ -22,7 +23,7 @@ function Starforest() {
   const [page, setPage] = useState(1);
   const [isAnimating, setIsAnimating] = useState(false);
   const contentRef = useRef(null);
-  const totalVerticalPages = 7;
+  const totalVerticalPages = 8;
 
   //page1
   const projectName = "별숲";
@@ -71,6 +72,9 @@ function Starforest() {
     title: ["예약", "결제"],
     img: [starforestPay, starforestReservation],
   };
+
+  //youtudePage
+  const youtubeId = { id: "zi9VBh7yJ6o", mute: "1" };
 
   // 세로 스크롤 제어
   useEffect(() => {
@@ -166,6 +170,9 @@ function Starforest() {
         </section>
         <section className="page-section">
           <PageSeven PageSevenContents={PageSevenContents} />
+        </section>
+        <section className="page-section">
+          <PageYoutube youtubeId={youtubeId} />
         </section>
       </div>
     </div>

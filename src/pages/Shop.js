@@ -7,6 +7,7 @@ import PageTwo from "../components/PageTwo";
 import PageOne from "../components/PageOne";
 import myVideo from "../videos/shop.mp4";
 import Loading from "../components/Loading";
+import PageYoutube from "../components/PageYoutube";
 
 function Shop() {
   const [videoLoaded, setVideoLoaded] = useState(false);
@@ -14,7 +15,7 @@ function Shop() {
   const [page, setPage] = useState(1);
   const [isAnimating, setIsAnimating] = useState(false);
   const contentRef = useRef(null);
-  const totalVerticalPages = 3;
+  const totalVerticalPages = 4;
 
   //page1
   const projectName = "쇼핑몰";
@@ -43,6 +44,9 @@ function Shop() {
     "Front_end",
     "Back_end",
   ];
+
+  //youtudePage
+  const youtubeId = { id: "n6yC3yjeTw8", mute: "1" };
 
   // 세로 스크롤 제어
   useEffect(() => {
@@ -126,6 +130,9 @@ function Shop() {
         </section>
         <section className="page-section">
           <PageThree myPart={myPart} />
+        </section>
+        <section className="page-section">
+          <PageYoutube youtubeId={youtubeId} />
         </section>
       </div>
     </div>

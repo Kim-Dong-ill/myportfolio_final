@@ -6,6 +6,7 @@ import PageThree from "../components/PageThree";
 import YouTubeBackground from "../components/YouTubeBackground";
 import myVideo from "../videos/Lib.mp4";
 import Loading from "../components/Loading";
+import PageYoutube from "../components/PageYoutube";
 
 function Lib() {
   const [videoLoaded, setVideoLoaded] = useState(false);
@@ -13,7 +14,7 @@ function Lib() {
   const [page, setPage] = useState(1);
   const [isAnimating, setIsAnimating] = useState(false);
   const contentRef = useRef(null);
-  const totalVerticalPages = 3;
+  const totalVerticalPages = 4;
 
   //page1
   const projectName = "강서도서관";
@@ -40,6 +41,9 @@ function Lib() {
     "front_end",
     "(도서관 & 챗봇)담당자와 communication",
   ];
+
+  //youtudePage
+  const youtubeId = { id: "4gEyjsXVTOo", mute: "0" };
 
   // 세로 스크롤 제어
   useEffect(() => {
@@ -122,6 +126,9 @@ function Lib() {
         </section>
         <section className="page-section">
           <PageThree myPart={myPart} />
+        </section>
+        <section className="page-section">
+          <PageYoutube youtubeId={youtubeId} />
         </section>
       </div>
     </div>

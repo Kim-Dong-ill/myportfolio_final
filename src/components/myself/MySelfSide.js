@@ -41,9 +41,9 @@ function MySelfSide() {
           <div className="sec3Title">Awards History</div>
           <div className="sec2TextWrap">
             <div>학과 수석 졸업</div>
-            <div>GIS 최우수상</div>
-            <div>O2O 우수상</div>
-            <div>O2O 모범상</div>
+            <div>GIS 프로젝트 최우수상</div>
+            <div>O2O 프로젝트 우수상</div>
+            <div>온투인 공모전 동상</div>
             <div>. . . </div>
           </div>
         </section>

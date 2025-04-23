@@ -16,6 +16,7 @@
   color: #d1cece;
 }
 .sectionEdu .sectionEduOne {
+  padding: 20px;
   width: 33%;
   box-shadow: rgba(0, 0, 0, 0.2) 12px 12px 12px 5px;
   display: flex;

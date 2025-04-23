@@ -12,6 +12,7 @@ import fourDBImg from "../images/dangdangDB.svg";
 import fiveAPIImg from "../images/dangdangAPI.svg";
 import dangdangGIS from "../images/dangdangGIS.svg";
 import Loading from "../components/Loading";
+import PageYoutube from "../components/PageYoutube";
 
 function Dangdang() {
   const [videoLoaded, setVideoLoaded] = useState(false);
@@ -19,7 +20,7 @@ function Dangdang() {
   const [page, setPage] = useState(1);
   const [isAnimating, setIsAnimating] = useState(false);
   const contentRef = useRef(null);
-  const totalVerticalPages = 6;
+  const totalVerticalPages = 7;
 
   //page1
   const projectName = "댕댕일주";
@@ -61,6 +62,9 @@ function Dangdang() {
     text: ["GeoJson", "KakaoMap", "$near"],
     img: dangdangGIS,
   };
+
+  //youtudePage
+  const youtubeId = { id: "xcKSNvP6u5E", mute: "1" };
 
   // 세로 스크롤 제어
   useEffect(() => {
@@ -152,6 +156,9 @@ function Dangdang() {
         </section>
         <section className="page-section">
           <PageSix PageSixContents={PageSixContents} />
+        </section>
+        <section className="page-section">
+          <PageYoutube youtubeId={youtubeId} />
         </section>
       </div>
     </div>
