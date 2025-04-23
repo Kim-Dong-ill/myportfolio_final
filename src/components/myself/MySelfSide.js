@@ -13,11 +13,6 @@ function MySelfSide() {
             <div className="sec1Title">김동일</div>
             <div className="sec1Text">Fullstack & Back-end</div>
           </div>
-          <div className="sec1LinkWrap">
-            <div>유튜브</div>
-            <div>이메일</div>
-            <div>카페</div>
-          </div>
         </section>
         <section className="section myselfpageSec2">
           <div className="sec2Box">
