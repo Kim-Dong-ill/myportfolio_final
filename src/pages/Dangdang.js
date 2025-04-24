@@ -3,7 +3,6 @@ import YouTubeBackground from "../components/YouTubeBackground";
 import "../css/pages/dangdang/dangdang.css";
 import PageOne from "../components/PageOne";
 import PageTwo from "../components/PageTwo";
-import myVideo from "../videos/dangdang.mp4";
 import PageThree from "../components/PageThree";
 import PageFour from "../components/PageFour";
 import PageFive from "../components/PageFive";

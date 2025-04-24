@@ -10,7 +10,6 @@ import YouTubeBackground from "../components/YouTubeBackground";
 import fourDBImg from "../images/startforestDB.svg";
 import fiveAPIImg from "../images/starforstAPI.svg";
 import dangdangGIS from "../images/starforestGIS.svg";
-import myVideo from "../videos/starforest.mp4";
 import PageSeven from "../components/PageSeven";
 import starforestPay from "../images/starforestPay.svg";
 import starforestReservation from "../images/starforestReservation.svg";

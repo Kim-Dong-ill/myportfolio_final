@@ -4,7 +4,6 @@ import PageTwo from "../components/PageTwo";
 import PageThree from "../components/PageThree";
 import PageFour from "../components/PageFour";
 import YouTubeBackground from "../components/YouTubeBackground";
-import myVideo from "../videos/chatbot.mp4";
 import chatbotflow from "../images/chatbot.svg";
 import Loading from "../components/Loading";
 

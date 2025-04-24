@@ -4,7 +4,6 @@ import PageOne from "../components/PageOne";
 import PageTwo from "../components/PageTwo";
 import PageThree from "../components/PageThree";
 import YouTubeBackground from "../components/YouTubeBackground";
-import myVideo from "../videos/Lib.mp4";
 import Loading from "../components/Loading";
 import PageYoutube from "../components/PageYoutube";
 

@@ -11,7 +11,6 @@ import Loading from "../components/Loading";
 import sacle from "../images/eyemtaxiscale.svg";
 import back from "../images/eyemtaxiback.svg";
 import gis from "../images/eyemtaxigis.svg";
-import myVideo from "../videos/eyemtaxi.mp4";
 import PageYoutube from "../components/PageYoutube";
 
 function EyemTaxi() {

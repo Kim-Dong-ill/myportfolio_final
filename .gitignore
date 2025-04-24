@@ -1,8 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 .env
 # src/videos와 src/images 폴더를 Git에 포함시키지 않음
-src/videos/
-src/images/
 # dependencies
 /node_modules
 /.pnp
