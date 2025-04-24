@@ -128,10 +128,10 @@ function EyemTaxi() {
     <div className="dangdang-container">
       {!videoLoaded && <Loading fadeOut={fadeOutLoading} />}
       <YouTubeBackground
-        src={myVideo}
-        onLoad={() => {
-          setFadeOutLoading(true); // fade-out 시작
-          setTimeout(() => setVideoLoaded(true), 700); // 애니메이션 시간 후 컴포넌트 제거
+        videoId={youtubeId.id}
+        onReady={() => {
+          setFadeOutLoading(true);
+          setTimeout(() => setVideoLoaded(true), 700);
         }}
       />
       <div

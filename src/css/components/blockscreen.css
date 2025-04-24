@@ -38,3 +38,23 @@
   color: rgb(226, 226, 226);
   font-size: 26px;
 }
+
+@media (max-width: 1000px) {
+  .screenText {
+    font-size: 18px;
+  }
+
+  .screenTextWrap {
+    font-size: 14px;
+    flex-direction: column; /* 너무 넓게 퍼지는 걸 방지 */
+    text-align: center;
+  }
+
+  .screenPixel {
+    font-size: 20px;
+  }
+
+  .blockImg {
+    width: 80px;
+  }
+}
