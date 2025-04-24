@@ -1,25 +1,22 @@
 import React from "react";
-import {
-  Webchat,
-  StylesheetProvider,
-  useWebchatClient,
-} from "@botpress/webchat";
 import "../css/pages/dangdang/chatbot.css";
 
 function Chatbot() {
   const clientId = process.env.REACT_APP_CLIENT_ID;
-  const { clientState, client } = useWebchatClient({ clientId });
+  // useEffect(() => {
+  //   // 이미 초기화되었는지 확인
+  //   if (!window.botpressWebChat) return;
 
-  return (
-    <StylesheetProvider client={client}>
-      <Webchat
-        style={{
-          width: "100%",
-          height: "100%",
-        }}
-      />
-    </StylesheetProvider>
-  );
+  //   window.botpressWebChat.init({
+  //     botId: { clientId },
+  //     hostUrl: "https://cdn.botpress.cloud/webchat/v0",
+  //     messagingUrl: "https://messaging.botpress.cloud",
+  //     container: "#webchat",
+  //     showPoweredBy: false,
+  //   });
+  // }, []);
+
+  return <div id="webchat" style={{ width: "100%", height: "100vh" }} />;
 }
 
 export default Chatbot;
