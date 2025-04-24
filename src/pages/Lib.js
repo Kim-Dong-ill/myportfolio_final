@@ -13,7 +13,7 @@ function Lib() {
   const [page, setPage] = useState(1);
   const [isAnimating, setIsAnimating] = useState(false);
   const contentRef = useRef(null);
-  const totalVerticalPages = 4;
+  const totalVerticalPages = 5;
 
   //page1
   const projectName = "강서도서관";
@@ -125,6 +125,16 @@ function Lib() {
         </section>
         <section className="page-section">
           <PageThree myPart={myPart} />
+        </section>
+        <section className="page-section">
+          <a
+            style={{ fontSize: 60 }}
+            href="https://gangseolibrary.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            강서도서관 Site 보기
+          </a>
         </section>
         <section className="page-section">
           <PageYoutube youtubeId={youtubeId} />
