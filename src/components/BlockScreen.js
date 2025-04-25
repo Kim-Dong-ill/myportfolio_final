@@ -15,7 +15,7 @@ function BlockScreen() {
             <div className="screenFirst">
               The size of your browser must be at least
             </div>
-            <div className="screenPixel"> 1500px </div>
+            <div className="screenPixel"> 1430px </div>
             <div className="screenLast"> wide to use portfolio.</div>
           </div>
         </div>

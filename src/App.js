@@ -13,7 +13,7 @@ import EyemTaxi from "./pages/EyemTaxi";
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const mobileBreakpoint = 1500;
+  const mobileBreakpoint = 1430;
   useEffect(() => {
     // 화면 크기 변경 감지 함수
     const handleResize = () => {
