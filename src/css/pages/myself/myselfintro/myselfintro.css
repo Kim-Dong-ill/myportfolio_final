@@ -19,4 +19,9 @@
 }
 .myselfIntro .myselfIntroImg img {
   width: 350px;
+}
+@media (max-width: 1600px) {
+  .myselfIntro .myselfIntroTitle {
+    font-size: 50px;
+  }
 }/*# sourceMappingURL=myselfintro.css.map */

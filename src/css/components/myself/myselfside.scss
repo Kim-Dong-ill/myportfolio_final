@@ -24,9 +24,9 @@
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-      gap: 9px;
+      gap: 25px;
       .sec1ImgBox {
-        width: 120px;
+        width: 100px;
         margin: 0 auto;
         border-radius: 1000px;
         overflow: hidden;
@@ -36,15 +36,11 @@
       }
       .sec1ExWrap {
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
-        .sec1Title {
-          font-size: 16px;
-          font-weight: bold;
-        }
-        .sec1Text {
-          font-size: 14px;
+        gap: 20px;
+        .snsIcon {
+          cursor: pointer;
         }
       }
       .sec1LinkWrap {
@@ -136,17 +132,17 @@
         justify-content: start;
         padding: 1px;
         .se4PercentHtml {
-          width: 99%;
+          width: 90%;
           height: 100%;
           background-color: #d1cece;
         }
         .se4PercentCss {
-          width: 99%;
+          width: 90%;
           height: 100%;
           background-color: #d1cece;
         }
         .se4PercentReact {
-          width: 99%;
+          width: 90%;
           height: 100%;
           background-color: #d1cece;
         }
@@ -161,12 +157,12 @@
           background-color: #d1cece;
         }
         .se4PercentNode {
-          width: 80%;
+          width: 75%;
           height: 100%;
           background-color: #d1cece;
         }
         .se4PercentFigma {
-          width: 99%;
+          width: 90%;
           height: 100%;
           background-color: #d1cece;
         }

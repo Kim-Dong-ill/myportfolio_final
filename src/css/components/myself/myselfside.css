@@ -26,10 +26,10 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 9px;
+  gap: 25px;
 }
 .myselfpage .myselfpageWrap .myselfpageSec1 .sec1ImgBox {
-  width: 120px;
+  width: 100px;
   margin: 0 auto;
   border-radius: 1000px;
   overflow: hidden;
@@ -39,16 +39,12 @@
 }
 .myselfpage .myselfpageWrap .myselfpageSec1 .sec1ExWrap {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
-.myselfpage .myselfpageWrap .myselfpageSec1 .sec1ExWrap .sec1Title {
-  font-size: 16px;
-  font-weight: bold;
-}
-.myselfpage .myselfpageWrap .myselfpageSec1 .sec1ExWrap .sec1Text {
-  font-size: 14px;
+.myselfpage .myselfpageWrap .myselfpageSec1 .sec1ExWrap .snsIcon {
+  cursor: pointer;
 }
 .myselfpage .myselfpageWrap .myselfpageSec1 .sec1LinkWrap {
   display: flex;
@@ -128,17 +124,17 @@
   padding: 1px;
 }
 .myselfpageSec4 .sec4TextWrap .sec4SkillWrap .sec4Percent .se4PercentHtml {
-  width: 99%;
+  width: 90%;
   height: 100%;
   background-color: #d1cece;
 }
 .myselfpageSec4 .sec4TextWrap .sec4SkillWrap .sec4Percent .se4PercentCss {
-  width: 99%;
+  width: 90%;
   height: 100%;
   background-color: #d1cece;
 }
 .myselfpageSec4 .sec4TextWrap .sec4SkillWrap .sec4Percent .se4PercentReact {
-  width: 99%;
+  width: 90%;
   height: 100%;
   background-color: #d1cece;
 }
@@ -153,12 +149,12 @@
   background-color: #d1cece;
 }
 .myselfpageSec4 .sec4TextWrap .sec4SkillWrap .sec4Percent .se4PercentNode {
-  width: 80%;
+  width: 75%;
   height: 100%;
   background-color: #d1cece;
 }
 .myselfpageSec4 .sec4TextWrap .sec4SkillWrap .sec4Percent .se4PercentFigma {
-  width: 99%;
+  width: 90%;
   height: 100%;
   background-color: #d1cece;
 }/*# sourceMappingURL=myselfside.css.map */

@@ -1,7 +1,24 @@
 import React from "react";
 import "../../css/components/myself/myselfside.css";
 import mypoto from "../../images/mypoto.jpg";
+import github from "../../images/logos/github-original.svg";
+import youtube from "../../images/logos/youtube.svg";
+import blog from "../../images/logos/naver-blog.svg";
 function MySelfSide() {
+  const snsIcon = [
+    {
+      link: "https://github.com/Kim-Dong-ill",
+      src: github,
+    },
+    {
+      link: "https://studio.youtube.com/channel/UCasGs0F54e0mE49Us10cY7Q/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D",
+      src: youtube,
+    },
+    {
+      link: "https://cafe.naver.com/f-e/cafes/31003991/menus/14?viewType=L",
+      src: blog,
+    },
+  ];
   return (
     <div className="myselfpage">
       <div className="myselfpageWrap">
@@ -10,8 +27,13 @@ function MySelfSide() {
             <img className="sec1Img" src={mypoto} alt="" />
           </div>
           <div className="sec1ExWrap">
-            <div className="sec1Title">김동일</div>
-            <div className="sec1Text">Fullstack & Back-end</div>
+            {snsIcon.map((item, idx) => {
+              return (
+                <a key={idx} href={item.link} target="_blank">
+                  <img className="snsIcon" src={item?.src} alt="" />
+                </a>
+              );
+            })}
           </div>
         </section>
         <section className="section myselfpageSec2">
@@ -48,7 +70,7 @@ function MySelfSide() {
             <div className="sec4SkillWrap">
               <div className="sec4Text">
                 <div>Html</div>
-                <div>99%</div>
+                <div>90%</div>
               </div>
               <div className="sec4Percent">
                 <div className="se4PercentHtml"></div>
@@ -57,7 +79,7 @@ function MySelfSide() {
             <div className="sec4SkillWrap">
               <div className="sec4Text">
                 <div>Css</div>
-                <div>99%</div>
+                <div>90%</div>
               </div>
               <div className="sec4Percent">
                 <div className="se4PercentCss"></div>
@@ -66,7 +88,7 @@ function MySelfSide() {
             <div className="sec4SkillWrap">
               <div className="sec4Text">
                 <div>React</div>
-                <div>99%</div>
+                <div>90%</div>
               </div>
               <div className="sec4Percent">
                 <div className="se4PercentReact"></div>
@@ -93,7 +115,7 @@ function MySelfSide() {
             <div className="sec4SkillWrap">
               <div className="sec4Text">
                 <div>Node</div>
-                <div>80%</div>
+                <div>75%</div>
               </div>
               <div className="sec4Percent">
                 <div className="se4PercentNode"></div>
@@ -102,7 +124,7 @@ function MySelfSide() {
             <div className="sec4SkillWrap">
               <div className="sec4Text">
                 <div>Figma</div>
-                <div>99%</div>
+                <div>90%</div>
               </div>
               <div className="sec4Percent">
                 <div className="se4PercentFigma"></div>
