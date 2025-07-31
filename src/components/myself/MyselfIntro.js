@@ -6,9 +6,11 @@ function MyselfIntro() {
   return (
     <div className="myselfIntro">
       <div className="myselfIntroTitle">
-        <div>안녕하세요!</div>
         <div>
-          <span>소통</span>과 <span>이해</span>를 중시하는
+          <span>화려하지</span> 않지만
+        </div>
+        <div>
+          <span>밋밋한</span> 개발자
         </div>
         <div>
           <span>김동일 </span> 입니다.
